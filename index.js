@@ -12,7 +12,8 @@ const twitterClient = new TwitterApi({
 const generationConfig = {
   maxOutputTokens: 400,
 };
-const genAI = new GenAI.GoogleGenerativeAI(SECRETS = ("./AIzaSyAwivKuuotVYl7jc8-Z7lOqv_6jZE5CbMI");
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+const genAI = new GoogleGenerativeAI("AIzaSyAwivKuuotVYl7jc8-Z7lOqv_6jZE5CbMI");
 
 async function run() {
   // For text-only input, use the gemini-pro model
