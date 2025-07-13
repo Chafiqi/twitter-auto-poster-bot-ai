@@ -12,7 +12,9 @@ const twitterClient = new TwitterApi({
 const generationConfig = {
   maxOutputTokens: 400,
 };
-const genAI = new GenAI.GoogleGenerativeAI(SECRETS = "AIzaSyAwivKuuotVYl7jc8-Z7lOqv_6jZE5CbMI")
+const genAI = new GenerativeAI({
+  apiKey: "AIzaSyAwizKuUotVY17jc8-Z710qv_cjZE5CbMT"
+});
 
 async function run() {
   const model = genAI.getGenerativeModel({
