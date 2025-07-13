@@ -1,6 +1,6 @@
 const GenAI = require("@google/generative-ai");
 const { TwitterApi } = require("twitter-api-v2");
-const SECRETS = require("./SECRETS");
+const SECRETS = require("SECRETS");
 
 const twitterClient = new TwitterApi({
   appKey:"Obs7COzOWTRtWCnPa45XCU1wO";
