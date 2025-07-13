@@ -15,13 +15,11 @@ const generationConfig = {
 const genAI = new GenAI.GoogleGenerativeAI(SECRETS = ("./AIzaSyAwivKuuotVYl7jc8-Z7lOqv_6jZE5CbMI");
 
 async function run() {
-  // For text-only input, use the gemini-pro model
   const model = genAI.getGenerativeModel({
     model: "gemini-pro",
     generationConfig,
   });
 
-  // Write your prompt here
   const prompt =
     "generate a web development content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
 
