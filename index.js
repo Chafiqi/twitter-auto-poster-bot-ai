@@ -3,7 +3,7 @@ const { TwitterApi } = require("twitter-api-v2");
 const SECRETS = require("./SECRETS");
 
 const twitterClient = new TwitterApi({
-  appKey: "AIzaSyAOQHwEvNEeuHYNuvzWxAjzArewhxrryas";
+  appKey: "Obs7COzOWTRtWCnPa45XCU1wO";
   appSecret: "MrsBSJmni9XZGKfymZ8FOqfxUjkiyPxl8fSt9OSx3nyssC0pvi";
   accessToken: "1595899449804525571-xLX0yV8fw9rqlHfk59J6PBI2sMo73n";
   accessSecret: SECRETS: "6QCT94SCv06OO6piSFPPVdOExSfYLgcziPw6jEygq09Ft";
